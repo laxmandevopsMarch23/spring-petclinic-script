@@ -2,7 +2,7 @@ node('SPRING-PET')
 {
       stage('vcs')
       {
-            git 'https://github.com/laxmandevopsMarch23/spring-petclinic-script.git'
+            git url: 'https://github.com/laxmandevopsMarch23/spring-petclinic-script.git'
       }
       stage('package')
       {
