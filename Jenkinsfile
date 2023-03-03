@@ -1,4 +1,4 @@
-node('')
+node('SPRING-PET')
 {
       stage('vcs')
       {
